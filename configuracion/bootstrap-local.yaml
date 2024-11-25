@@ -1,0 +1,6 @@
+app:
+  security:
+    jwt:
+      secret-key: mySecretKey123
+      token-validity: 86400000
+      refresh-token-validity: 604800000
